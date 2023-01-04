@@ -7,4 +7,5 @@ $TTL	60000
 			60000 ; negative cache ttl
 			)
 @		IN	NS	dnsnot.notascam.com.
-#TODOTODO
+www		IN	A	192.168.182.186
+		IN	MX	smtp.notascam.com
