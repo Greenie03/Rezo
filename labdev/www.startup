@@ -1,0 +1,3 @@
+a2dismod -f deflate
+apache2ctl start
+dhclient

@@ -1,0 +1,8 @@
+alice: boxa
+boxa: rtw
+www: boxb
+dnsnot: boxb
+boxb: rtx
+resdns: rty
+dnsroot: rtz
+dnscom: rtz

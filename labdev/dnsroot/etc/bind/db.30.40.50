@@ -1,0 +1,12 @@
+$TTL	60000
+@		IN	SOA	254.50.40.30.in-addr.arpa.	nobody.nowhere. (
+			1 ; serial
+			28 ; refresh
+			14 ; retry
+			3600000 ; expire
+			0 ; negative cache ttl
+			)
+@				IN	NS	254.50.40.30.in-addr.arpa.
+254.50.40.30.in-addr.arpa.	IN	A	30.40.50.254
+
+10	PTR	dnsroot.

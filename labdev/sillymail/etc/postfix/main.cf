@@ -1,0 +1,9 @@
+myhostname = smtp.sillymail.com
+myorigin = $mydomain
+smtpd_use_tls = no
+mydestination = $mydomain
+relay_domains = notascam.com
+inet_interfaces = all
+inet_protocols = all
+compatibility_level = 2
+mail_spool_directory = /var/mail

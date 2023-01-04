@@ -1,0 +1,13 @@
+$TTL	60000
+@		IN	SOA	40.30.20.in-addr.arpa.	nobody.nowhere. (
+			1 ; serial
+			28 ; refresh
+			14 ; retry
+			3600000 ; expire
+			0 ; negative cache ttl
+			)
+@			IN	NS	50.40.30.20.in-addr.arpa.
+50.40.30.20.in-addr.arpa.	IN	A	20.30.40.50
+
+50	PTR	resdns.sillymail.com.
+

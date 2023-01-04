@@ -1,0 +1,4 @@
+useradd -ms /bin/bash -p $(openssl passwd -6 sosecure) sosecure
+dhclient
+/etc/init.d/postfix start
+/etc/init.d/dovecot start

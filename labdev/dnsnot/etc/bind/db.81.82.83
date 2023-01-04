@@ -1,0 +1,12 @@
+$TTL	60000
+@		IN	SOA	83.82.81.in-addr.arpa.	nobody.nowhere. (
+			1 ; serial
+			28 ; refresh
+			14 ; retry
+			3600000 ; expire
+			0 ; negative cache ttl
+			)
+@			IN	NS	2.83.82.81.in-addr.arpa.
+2.83.82.81.in-addr.arpa.	IN	A	81.82.83.2
+
+2	PTR	www.notascam.com.

@@ -1,0 +1,15 @@
+$TTL	60000
+@		IN	SOA	resdns.sillymail.com. root.resdns.sillymail.com.	(
+			1 ; serial
+			28 ; refresh
+			14 ; retry
+			3600000 ; expire
+			60000 ; negative cache ttl
+			)
+@		IN	NS	resdns.sillymail.com.
+@		IN	MX 5	smtp.sillymail.com.
+
+resdns		IN	A	20.30.40.50
+smtp		IN	A	20.30.40.60
+imap		IN	A	20.30.40.60
+

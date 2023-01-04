@@ -1,0 +1,2 @@
+cp /shared/etc/frr/* /etc/frr/
+/etc/init.d/frr start
