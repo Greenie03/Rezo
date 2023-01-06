@@ -1,5 +1,7 @@
-ip addr add 192.168.182.177/28 dev eth0
+ip addr add 192.168.182.177/29 dev eth0
 ip addr add 19.0.0.2/24 dev eth1
 ip route add default via 19.0.0.1
 /etc/init.d/isc-dhcp-server start
 iptables -t nat -A POSTROUTING -o eth1 -j SNAT --to 19.0.0.2
+iptables -t nat -A PREROUTING -i eth1 -j DNAT --to 192.168.182.178
+iptables -t nat -A PREROUTING -i eth0 -j DNAT --to 81.82.83.2

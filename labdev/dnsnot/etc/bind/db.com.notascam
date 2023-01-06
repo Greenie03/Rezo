@@ -6,8 +6,9 @@ $TTL	60000
 			3600000 ; expire
 			60000 ; negative cache ttl
 			)
+@		IN	MX 5	smtp.notascam.com.
 @		IN	NS	dnsnot.notascam.com.
-www		IN	A	192.168.182.180
-mailnot		IN	A	192.168.182.180
-dnsnot		IN 	A	192.168.182.180
-smtp.notascam.com		IN	MX	smtp.notascam.com
+mailnot		IN	A	192.168.182.189
+dnsnot		IN 	A	192.168.182.189
+www		IN	A	192.168.182.189
+
