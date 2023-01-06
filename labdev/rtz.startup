@@ -3,6 +3,8 @@ ip addr add 192.168.182.190/30 dev eth1
 ip addr add 192.168.182.186/30 dev eth2
 /etc/init.d/ssh start
 source /shared/rezotrick
-
+echo "interface eth0" >> /etc/frr/ripd.conf
+echo "  ip rip send version 2" >> /etc/frr/ripd.conf
+echo "  ip rip receive version 2" >> /etc/frr/ripd.conf
 
 
