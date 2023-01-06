@@ -8,7 +8,7 @@ $TTL	60000
 			)
 @		IN	MX 5	smtp.notascam.com.
 @		IN	NS	dnsnot.notascam.com.
-mailnot		IN	A	192.168.182.189
-dnsnot		IN 	A	192.168.182.189
-www		IN	A	192.168.182.189
+mailnot		IN	A	192.168.182.205
+dnsnot		IN 	A	192.168.182.205
+www		IN	A	192.168.182.205
 
